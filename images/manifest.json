@@ -1,0 +1,66 @@
+{
+  "id" : "https://enri-ca.github.io/DTHPA/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in enri-ca/DTHPA project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2502,
+    "id" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia/canvas/",
+    "label" : {
+      "none" : [ "sup1351_007bis_Sicilia" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 79,
+              "height" : 22
+            }, {
+              "width" : 157,
+              "height" : 43
+            }, {
+              "width" : 313,
+              "height" : 86
+            }, {
+              "width" : 626,
+              "height" : 172
+            }, {
+              "width" : 1251,
+              "height" : 344
+            }, {
+              "width" : 2502,
+              "height" : 687
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2502,
+            "@id" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 687
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2502,
+          "id" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 687
+        },
+        "target" : "https://enri-ca.github.io/DTHPA/images/sup1351_007bis_Sicilia/canvas/"
+      } ]
+    } ],
+    "height" : 687
+  } ]
+}
